@@ -201,7 +201,7 @@ On the LakeFormation administration page make the `SageMaker Execution Role` a d
 
 ## S3 and Glue Data Crawler setup
 
-The [`sagemaker-lf-credential-vending-APIs-latest.ipynb`](sagemaker-lf-credential-vending-APIs-latest.ipynb) notebook creates a Glue data catalog table and also places a file in S3 to hydrate the table. If you already have data in S3 that you would like read as a Glue data catalog table then you can do that by updating the `DATABASE_NAME`, `DATABASE_S3_LOCATION` and `TABLE_NAME` variables in the [`sagemaker-lf-credential-vending-APIs-latest.ipynb`](sagemaker-lf-credential-vending-APIs-latest.ipynb) notebook.
+The [`sagemaker-lf-credential-vending.ipynb`](sagemaker-lf-credential-vending.ipynb) notebook creates a Glue data catalog table and also places a file in S3 to hydrate the table. If you already have data in S3 that you would like read as a Glue data catalog table then you can do that by updating the `DATABASE_NAME`, `DATABASE_S3_LOCATION` and `TABLE_NAME` variables in the [`sagemaker-lf-credential-vending.ipynb`](sagemaker-lf-credential-vending.ipynb) notebook.
 
 ## Steps to run the solution
 
